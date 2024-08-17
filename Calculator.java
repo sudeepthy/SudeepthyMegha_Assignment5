@@ -20,7 +20,7 @@ public class Calculator {
 		System.out.println("4. Divide");
 		System.out.println("5. Absolute");
 		System.out.println("6. Power");
-		System.out.println("Enter your choice");
+		System.out.println("Enter your choice(1-6)");
 		choice = objScan.nextInt();
 		IPrinter objPrin = (result) -> System.out.println("Result: " + result);
 		switch (choice) {
